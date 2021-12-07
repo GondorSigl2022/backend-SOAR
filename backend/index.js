@@ -9,6 +9,6 @@ app.get('/:name', (req,res) => {
     res.status(200).send(`Welcome ${name}, this is the SOAR project by the Gondor group`)
 })
 
-app.listen(8080, () => {
+app.listen(80, () => {
   console.log("Serveur à l'écoute")
 })
